@@ -42,5 +42,6 @@ for i in range(0, len(questions)):      # For loop for asking questions
         elif i == 14:
             money = 10000000
     else:
-        print(f"Wrong answer!, Your Cash Prize is Rs{price[i-1]}")
+        print(f"Wrong answer!")
         break
+print(f"Your Cash Price is {money}")
